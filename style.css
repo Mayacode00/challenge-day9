@@ -274,13 +274,13 @@ body:hover {
     margin-top: 40px;
   }
   .mail {
-    width: 340px;
+    width: 330px;
     height: 32px;
     padding: 10px;
   }
   .started {
     height: 32px;
-    width: 340px;
+    width: 330px;
     padding: 6px;
     margin-left: 0;
     margin-top: 15px;
@@ -342,6 +342,9 @@ body:hover {
   }
   .founder {
     font-size: 10px;
+  }
+  .third-section{
+    overflow-y: hidden;
   }
   .fourth {
     display: flex;
