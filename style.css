@@ -323,6 +323,7 @@ body:hover {
     padding: 20px;
     margin: 50px 50px 40px 40px;
     font-size: 12px;
+    overflow-y: hidden;
   }
   .fa-arrow-circle-right {
     font-size: 9px;
