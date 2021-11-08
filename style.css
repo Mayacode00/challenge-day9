@@ -216,19 +216,16 @@ body:hover {
   cursor: pointer;
 }
 @media screen and (max-width: 500px) {
-  * {
+  *{
     overflow-x: hidden;
   }
-  body {
-    width: 100%;
-  }
   main {
-    margin: 10px;
-    width: 100%;
+    margin: 0;
+    width: 100vw;
+    align-items: center;
   }
   .first-div {
-    width: 330px;
-    margin: 20px;
+    margin: 15px;
   }
   .logo {
     height: 15px;
@@ -237,29 +234,29 @@ body:hover {
     padding: 0;
   }
   li {
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 10px;
   }
   .first-container {
     margin-top: 80px;
     text-align: center;
+    align-items: center;
   }
   .first-note {
     display: flex;
     flex-direction: column-reverse;
-    margin: 5px;
+    align-items: center;
   }
   .first-paragraph {
-    width: 330px;
-    margin-top: 70px;
+    width: 300px;
   }
   .first-illustration {
-    height: 250px;
-    width: 300px;
+    height: 200px;
+    width: 250px;
     margin: 25px;
   }
   h3 {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 1.4;
     font-weight: 700;
   }
@@ -274,7 +271,7 @@ body:hover {
     margin-top: 40px;
   }
   .mail {
-    width: 330px;
+    width: 300px;
     height: 32px;
     padding: 10px;
   }
@@ -298,30 +295,30 @@ body:hover {
   .second-note {
     display: flex;
     flex-direction: column-reverse;
+    width: 100vw;
   }
   .productive {
     font-size: 16px;
     text-align: center;
-    font-weight: 800;
-    margin: 15px;
+    font-weight: 800; 
   }
   .second-paragraph {
-    margin: 25px;
+    margin: 10px;
   }
   .second {
-    font-size: 14px;
-    width: 300px;
+    font-size: 13px;
     font-weight: 400;
+    width: 95vw;
   }
   a {
-    margin-left: 100px;
+    margin-left: 70px;
     font-size: 13px;
   }
   .third-container {
     width: 250px;
     height: 150px;
     padding: 20px;
-    margin: 50px 50px 40px 40px;
+    margin: 12%;
     font-size: 12px;
     overflow-y: hidden;
   }
